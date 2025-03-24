@@ -1,4 +1,3 @@
-/* Don't even try to understand any of this shit cause I don't even understand it myself */
 * {
     padding: 0;
     margin: 0;
@@ -313,9 +312,9 @@ footer .bottom {
     }
 
     .main-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
     }
 
     .right {
@@ -324,6 +323,10 @@ footer .bottom {
         padding: 20px 35px;
         text-align: center;
         grid-area: 2 / 2 / 3 / 3;
+        height: 96vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
     
     .right #submit {
@@ -361,7 +364,4 @@ footer .bottom {
         text-shadow: 3px 3px black;
         margin-bottom: 15px;
     }
-    
-
-
 }
