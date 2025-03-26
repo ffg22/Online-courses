@@ -65,4 +65,3 @@ submit.addEventListener("mouseout", ()=>{
     submit.style.transform = "scale(1)";
     submit.style.transition = "all 0.4s";
 })
-
